@@ -211,7 +211,7 @@ model ProductVariant {
 // PRODUCT ATTRIBUTES
 // ============================================
 
-model Attributeuser {
+model Attribute {
   id            String   @id @default(uuid())
   name          String   @unique  // e.g., "Color", "Size", "Brand"
   displayType   String   @default("select") // select, radio, color, pills
